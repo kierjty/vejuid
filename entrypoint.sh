@@ -2,7 +2,7 @@
 
 # 定义 UUID 及 伪装路径,请自行修改.(注意:伪装路径以 / 符号开始,为避免不必要的麻烦,请不要使用特殊符号.)
 UUID=${UUID:-'37fcb1e6-8b63-4015-99ec-2d62cce5a760'}
-VMESS_WSPATH=${VMESS_WSPATH:-'37fcb1e6-8b63-4015-99ec-2d62cce5a760-/vmess'}
+VMESS_WSPATH=${VMESS_WSPATH:-'/37fcb1e6-8b63-4015-99ec-2d62cce5a760-vmess'}
 VLESS_WSPATH=${VLESS_WSPATH:-'/37fcb1e6-8b63-4015-99ec-2d62cce5a760-vless'}
 TROJAN_WSPATH=${TROJAN_WSPATH:-'/37fcb1e6-8b63-4015-99ec-2d62cce5a760-trojan'}
 SS_WSPATH=${SS_WSPATH:-'/37fcb1e6-8b63-4015-99ec-2d62cce5a760-shadowsocks'}
